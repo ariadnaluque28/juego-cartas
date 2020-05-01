@@ -26,8 +26,8 @@ Public Class carta_1
         End If
     End Function
 
-    Public Function cadena(c As carta_1) As String
-        cadena = c.num + Me.num
+    ublic Function cadena(c As carta_1) As String
+        cadena = "el numero que tiene el jugador es " + c.getnum
         Return cadena
     End Function
 
